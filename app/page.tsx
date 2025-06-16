@@ -962,7 +962,7 @@ export default function Portfolio() {
           <div className="grid lg:grid-cols-4 gap-8">
             {/* Sidebar - Now with conditional sticky behavior */}
             <div className="lg:col-span-1">
-              <div className={`${timelineSidebarSticky ? "sticky top-24" : "relative"} transition-all duration-300`}>
+              <div className={timelineSidebarSticky ? "sticky top-24" : "relative"}>
                 <div
                   className={`bg-slate-800/50 border border-${currentTheme.border} rounded-lg p-6 backdrop-blur-sm transition-all duration-300 ${
                     timelineSidebarSticky ? `shadow-lg shadow-${currentTheme.glow}` : ""

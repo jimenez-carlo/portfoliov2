@@ -123,7 +123,7 @@ export default function Portfolio() {
   const workExperience = [
     {
       id: 1,
-      company: "We Support Inc.",
+      company: "We Support Incorporated (PH)",
       position: "Senior Fullstack Developer",
       period: "JANUARY 2023 - PRESENT",
       status: "ACTIVE",
@@ -136,34 +136,117 @@ export default function Portfolio() {
         "Docker",
         "Putty",
       ],
-      image: "/placeholder.svg?height=60&width=60",
-      achievements: [
-        "Led development of 15+ responsive web applications",
-        "Improved system performance by 40%",
-        "Mentored 3 junior developers",
-      ],
+            image: "/companies/wesupport.png?height=60&width=60",
+      achievements:[]
+      // achievements: [
+      //   "Led development of 15+ responsive web applications",
+      //   "Improved system performance by 40%",
+      //   "Mentored 3 junior developers",
+      // ],
     },
     {
       id: 2,
-      company: "Tech Solutions Corp",
-      position: "Frontend Developer",
-      period: "MARCH 2021 - DECEMBER 2022",
+      company: "Positive Nation (US)",
+      position: "Fullstack",
+      period: "NOVEMBER 2023 - JANUARY 2025",
       status: "COMPLETED",
-      description: "Specialized in creating modern, responsive user interfaces using React and Vue.js frameworks.",
-      technologies: ["React JS & Vue.js", "TypeScript", "Tailwind CSS", "REST APIs", "Git & GitHub"],
-      image: "/placeholder.svg?height=60&width=60",
-      achievements: ["Developed 20+ React components", "Reduced load times by 35%", "Implemented responsive designs"],
+      description: "Fullstack maintenance and development and converting Figma/illustrator to responsive web design.",
+      technologies: [
+        "PHP (CodeIgniter, React JS, Stripe, Node JS)",
+        "SQL (MariaDB, MySQL Workbench)",
+        "Bootstrap 5 (jQuery & Vanilla JS)",
+        "GIT (Bash, Github Desktop, BitBucket)",
+        "Webhosting (Justhost, A2hosting)",
+        "Putty",
+      ],
+            image: "/companies/positivenation.png?height=60&width=60",
+      achievements:[]
     },
     {
       id: 3,
-      company: "Digital Innovations Ltd",
-      position: "Junior Web Developer",
-      period: "JUNE 2019 - FEBRUARY 2021",
+      company: "SEO For Real Estate Investors (US)",
+      position: "Wordpress Developer & Customer Support (Part Time)",
+      period: "JUNE 2024 - SEPTEMBER 2024",
       status: "COMPLETED",
-      description: "Started career focusing on PHP development and database management with MySQL.",
-      technologies: ["PHP & Laravel", "MySQL", "HTML5 & CSS3", "JavaScript", "Bootstrap"],
-      image: "/placeholder.svg?height=60&width=60",
-      achievements: ["Built 10+ web applications", "Optimized database queries", "Learned modern web standards"],
+      description: "Fullstack maintenance and development and converting Figma/illustrator to responsive web design.",
+      technologies: [
+        "Wordpress (Grumpy Hare, Beaver Builder, Themes, Plugin)",
+        "SQL (MariaDB, MySQL Workbench)",
+        "Bootstrap 5 (Jquery & vanilla js)",
+        "GIT (Bash, Github)",
+      ],
+            image: "/companies/seo.png?height=60&width=60",
+      achievements:[]
+    },
+      {
+      id: 4,
+      company: "AXPARA",
+      position: "SOFTWARE DEVELOPER",
+      period: "OCTOBER 2021 - NOVEMBER 2023",
+      status: "COMPLETED",
+      description: "Web App development (SLDC Waterfall) with APIs and performing research analysis and testing for web technologies, converting Figma/illustrator to responsive web design.",
+      technologies: [
+        "Php (PDO, Matomo(Piwik), Zend, WordPress plugin, CMS, Smarty Template, Angular 12, Node JS)",
+        "WebAR (AR js)",
+        "Tailwind (Tailwind UI, Flowbite, Vite JS & vanilla js)",
+        "Bootstrap 5 (Jquery & vanilla js)",
+        "GIT (Bash, Github Desktop, BitBucket)",
+        "AWS (RDBMS, RESTful API)",
+        "Figma",
+      ],
+            image: "/companies/axpara.png?height=60&width=60",
+      achievements:[]
+    },
+      {
+      id: 5,
+      company: "CONCERTED MANAGEMENT CORPORATION (PH)",
+      position: "SYSTEMS ANALYST PROGRAMMER",
+      period: "JUNE 2021 - OCTOBER 2021",
+      status: "COMPLETED",
+      description: "Technical Support, Web App maintenance and developement (Scrum) with centralized flow.",
+      technologies: [
+        "Php (CodeIgniter, Laravel)",
+        "SQL (MYSQL, Mysql Workbench)",
+        "Bootstrap (3-5) (Jquery & vanilla js)",
+        "GIT (Bash, Github Desktop, Gitlab)",
+        "Putty"
+      ],
+            image: "/companies/motortrade.png?height=60&width=60",
+      achievements:[]
+    },
+      {
+      id: 6,
+      company: "H2 SOFTWARE (PH)",
+      position: "SYSTEMS ANALYST PROGRAMMER",
+      period: "OCTOBER 2019 - JUNE 2021",
+      status: "COMPLETED",
+      description: "Technical Support, Web App maintenance and developement (Scrum) with centralized flow.",
+      technologies: [
+        "Php (CodeIgniter, Laravel)",
+        "SQL (MYSQL, Mysql Workbench)",
+        "Bootstrap (3-5) (Jquery & vanilla js)",
+        "GIT (Bash, Github Desktop, Gitlab)",
+        "Putty"
+      ],
+            image: "/companies/h2software.png?height=60&width=60",
+      achievements:[]
+    },
+      {
+      id: 7,
+      company: "I-REMIT (PH)",
+      position: "SOFTWARE DEVELOPER",
+      period: "OCTOBER 2019 - JUNE 2021",
+      status: "COMPLETED",
+      description: "On-the-phone & Software Support, Software maintenance, Development and web service API's (in XML).",
+      technologies: [
+        "Php Core (ODBC)",
+        "ASP.NET C# Razor(MVC, EF)",
+        "SQL (MSSQL)",
+        "Bootstrap4 (Jquery & vanilla js)",
+        "GIT (Github Desktop)"
+      ],
+      image: "/companies/iremit.png?height=60&width=60",
+      achievements:[]
     },
   ]
 
@@ -310,18 +393,32 @@ export default function Portfolio() {
   }
 
   const skills = [
-    { name: "JavaScript", level: 90, category: "Frontend", icon: <Code className="w-4 h-4" /> },
+    { name: "JavaScript (ES2015+)", level: 100, category: "Frontend", icon: <Code className="w-4 h-4" /> },
     { name: "TypeScript", level: 85, category: "Frontend", icon: <Code className="w-4 h-4" /> },
     { name: "React", level: 90, category: "Frontend", icon: <Zap className="w-4 h-4" /> },
     { name: "Next.js", level: 85, category: "Frontend", icon: <Zap className="w-4 h-4" /> },
     { name: "Vue.js", level: 80, category: "Frontend", icon: <Shield className="w-4 h-4" /> },
-    { name: "Node.js", level: 85, category: "Backend", icon: <Cpu className="w-4 h-4" /> },
-    { name: "PHP", level: 80, category: "Backend", icon: <Cpu className="w-4 h-4" /> },
+    { name: "C#", level: 80, category: "Frontend", icon: <Shield className="w-4 h-4" /> },
+    { name: "ASP.NET", level: 80, category: "Frontend", icon: <Shield className="w-4 h-4" /> },
+
+    { name: "PHP", level: 100, category: "Backend", icon: <Cpu className="w-4 h-4" /> },
     { name: "Laravel", level: 85, category: "Backend", icon: <Shield className="w-4 h-4" /> },
+    { name: "Wordpress", level: 85, category: "Backend", icon: <Shield className="w-4 h-4" /> },
+    // { name: "Node.js", level: 85, category: "Backend", icon: <Cpu className="w-4 h-4" /> },
+    // { name: "VBA", level: 85, category: "Backend", icon: <Cpu className="w-4 h-4" /> },
+    { name: "VB.NET", level: 85, category: "Backend", icon: <Cpu className="w-4 h-4" /> },
+    { name: "Python", level: 85, category: "Backend", icon: <Cpu className="w-4 h-4" /> },
+
     { name: "MySQL", level: 80, category: "Database", icon: <Database className="w-4 h-4" /> },
     { name: "MongoDB", level: 75, category: "Database", icon: <Database className="w-4 h-4" /> },
-    { name: "Git", level: 85, category: "Tools", icon: <Code className="w-4 h-4" /> },
-    { name: "Docker", level: 70, category: "Tools", icon: <Cpu className="w-4 h-4" /> },
+
+    { name: "Git", level: 100, category: "Tools", icon: <Code className="w-4 h-4" /> },
+    { name: "GitHub Desktop", level: 85, category: "Tools", icon: <Cpu className="w-4 h-4" /> },
+    { name: "Docker", level: 85, category: "Tools", icon: <Cpu className="w-4 h-4" /> },
+    // { name: "Vite", level: 85, category: "Tools", icon: <Cpu className="w-4 h-4" /> },
+    { name: "MySQL Work bench", level: 85, category: "Tools", icon: <Cpu className="w-4 h-4" /> },
+    // { name: "Github Actions", level: 85, category: "Tools", icon: <Cpu className="w-4 h-4" /> },
+    { name: "Jira", level: 85, category: "Tools", icon: <Cpu className="w-4 h-4" /> },
   ]
 
   const projects = [
@@ -366,67 +463,152 @@ export default function Portfolio() {
   const galleryImages = [
     {
       id: 1,
-      src: "/placeholder.svg?height=300&width=400",
-      title: "QUANTUM INTERFACE DESIGN",
-      category: "ui-ux",
-      description: "Advanced user interface for quantum computing systems",
+      src: "/categories/ABToken.png?height=300&width=400",
+      title: "ABToken",
+      category: "system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
     },
     {
       id: 2,
-      src: "/placeholder.svg?height=300&width=400",
-      title: "NEURAL NETWORK VISUALIZATION",
-      category: "web-dev",
-      description: "Interactive visualization of machine learning algorithms",
+      src: "/categories/BPC.png?height=300&width=400",
+      title: "BPC",
+      category: "system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
     },
     {
       id: 3,
-      src: "/placeholder.svg?height=300&width=400",
-      title: "TACTICAL COMMAND CENTER",
-      category: "mobile",
-      description: "Mobile application for real-time mission coordination",
+      src: "/categories/Bridge Connect.png?height=300&width=400",
+      title: "Bridge Connect",
+      category: "system_landing",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
     },
     {
       id: 4,
-      src: "/placeholder.svg?height=300&width=400",
-      title: "ATMOSPHERIC DATA PORTAL",
-      category: "web-dev",
-      description: "Environmental monitoring dashboard with predictive analytics",
+      src: "/categories/Dentist System.png?height=300&width=400",
+      title: "PDCMS",
+      category: "system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
     },
     {
       id: 5,
-      src: "/placeholder.svg?height=300&width=400",
-      title: "BIOMETRIC SCANNER UI",
-      category: "ui-ux",
-      description: "Futuristic biometric authentication interface",
+      src: "/categories/E-Barangay System.png?height=300&width=400",
+      title: "E-Barangay System",
+      category: "system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
     },
     {
       id: 6,
-      src: "/placeholder.svg?height=300&width=400",
-      title: "MISSION BRIEFING APP",
-      category: "mobile",
-      description: "Secure communication platform for tactical operations",
+      src: "/categories/Inventory System.png?height=300&width=400",
+      title: "Inventory System",
+      category: "system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
     },
     {
       id: 7,
-      src: "/placeholder.svg?height=300&width=400",
-      title: "QUANTUM ENCRYPTION TOOL",
-      category: "web-dev",
-      description: "Advanced encryption system for secure data transmission",
+      src: "/categories/Kireina V1.png?height=300&width=400",
+      title: "Kireina Window Films v1",
+      category: "system_landing",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
     },
     {
       id: 8,
-      src: "/placeholder.svg?height=300&width=400",
-      title: "HOLOGRAPHIC DISPLAY",
-      category: "ui-ux",
-      description: "3D holographic interface for data visualization",
+      src: "/categories/Kireina V1.5.png?height=300&width=400",
+      title: "Kireina Window Films v1.5",
+      category: "system_landing",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 9,
+      src: "/categories/Kireina V2.png?height=300&width=400",
+      title: "Kireina Window Films v2",
+      category: "system_landing",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 10,
+      src: "/categories/Medical Appointment_Inventory System.png?height=300&width=400",
+      title: "Medical Appointment & Inventory System",
+      category: "system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 11,
+      src: "/categories/Positivenation Music Awards.png?height=300&width=400",
+      title: "Positivenation Music Awards",
+      category: "wordpress",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 12,
+      src: "/categories/Positivenation.png?height=300&width=400",
+      title: "Positivenation",
+      category: "wordpress",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 13,
+      src: "/categories/Project Management System.png?height=300&width=400",
+      title: "Project Management System",
+      category: "system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 14,
+      src: "/categories/Quail Farm.png?height=300&width=400",
+      title: "Quail Farm",
+      category: "system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 15,
+      src: "/categories/Sales Tracker.png?height=300&width=400",
+      title: "Sales Tracker System",
+      category: "system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 16,
+      src: "/categories/Strong tower Gym.png?height=300&width=400",
+      title: "Strong Tower Gym",
+      category: "system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 17,
+      src: "/categories/Zeng IT v1.png?height=300&width=400",
+      title: "Zeng IT v1",
+      category: "landing_system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 18,
+      src: "/categories/Zeng IT v2.png?height=300&width=400",
+      title: "Zeng IT v2",
+      category: "landing_system",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 19,
+      src: "/categories/vba.png?height=300&width=400",
+      title: "Routing System",
+      category: "excel",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
+    },
+    {
+      id: 20,
+      src: "/categories/vba2.png?height=300&width=400",
+      title: "Routing System",
+      category: "excel",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc nulla, feugiat sit amet gravida vitae, sodales vitae justo. Vivamus sodales tellus quis dolor tempus, nec vestibulum metus vestibulum. Sed vitae congue urna.",
     },
   ]
 
   const galleryCategories = [
     { id: "all", label: "ALL_ARCHIVES", count: galleryImages.length },
-    { id: "web-dev", label: "WEB_SYSTEMS", count: galleryImages.filter((img) => img.category === "web-dev").length },
-    { id: "mobile", label: "MOBILE_UNITS", count: galleryImages.filter((img) => img.category === "mobile").length },
-    { id: "ui-ux", label: "INTERFACE_DESIGN", count: galleryImages.filter((img) => img.category === "ui-ux").length },
+    { id: "system_landing", label: "SYSTEM_WITH_LANDING", count: galleryImages.filter((img) => img.category === "system_landing").length },
+    { id: "system", label: "SYSTEM", count: galleryImages.filter((img) => img.category === "system").length },
+    { id: "wordpress", label: "WORDPRESS", count: galleryImages.filter((img) => img.category === "wordpress").length },
+    { id: "excel", label: "EXCEL", count: galleryImages.filter((img) => img.category === "excel").length },
   ]
 
   const filteredGalleryImages =
@@ -492,11 +674,7 @@ export default function Portfolio() {
             <div
               className={`absolute top-full right-0 mt-2 bg-slate-900/95 backdrop-blur-sm border ${colorTheme === "blue" ? "border-blue-500/30 shadow-blue-500/25" : colorTheme === "red" ? "border-red-500/30 shadow-red-500/25" : "border-green-500/30 shadow-green-500/25"} rounded-lg p-2 space-y-2 shadow-2xl animate-in slide-in-from-top duration-300`}
             >
-              <div
-                className={`${colorTheme === "blue" ? "text-blue-400" : colorTheme === "red" ? "text-red-400" : "text-green-400"} font-mono text-xs mb-2 px-2`}
-              >
-                {">> SELECT_FACTION <<"}
-              </div>
+
 
               {(Object.keys(themes) as ColorTheme[]).map((theme) => (
                 <button
@@ -572,7 +750,7 @@ export default function Portfolio() {
                 <span
                   className={`${colorTheme === "blue" ? "text-blue-400" : colorTheme === "red" ? "text-red-400" : "text-green-400"} font-mono text-xs animate-typing animate-on-scroll`}
                 >
-                  {"< NEURAL_LINK_ESTABLISHED />"}
+                  {"< PORTFOLIO_PREVIEWED_MODE />"}
                 </span>
                 <div
                   className={`${colorTheme === "blue" ? "text-blue-300" : colorTheme === "red" ? "text-red-300" : "text-green-300"} font-mono text-xs opacity-75`}
@@ -586,20 +764,19 @@ export default function Portfolio() {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-1">
                 {[
-                  { id: "home", label: "COMMAND_CENTER" },
-                  { id: "about", label: "PERSONNEL_FILE" },
-                  { id: "skills", label: "TECH_SPECS" },
-                  { id: "timeline", label: "SERVICE_RECORD" },
-                  { id: "projects", label: "MISSION_LOG" },
-                  { id: "contact", label: "COMM_LINK" },
+                  { id: "home", label: "HOME" },
+                  { id: "about", label: "ABOUT ME" },
+                  { id: "skills", label: "TECH STACK" },
+                  { id: "timeline", label: "WORK EXPERIENCE" },
+                  { id: "projects", label: "PROJECTS" },
+                  { id: "contact", label: "CONTACT" },
                 ].map((item) => (
                   <button
                     key={item.id}
                     onClick={() => scrollToSection(item.id)}
                     className={`px-4 py-2 text-xs font-mono font-medium transition-all duration-300 relative ripple-effect click-glow ${
-                      activeSection === item.id
-                        ? `bg-${currentTheme.bg} text-${currentTheme.textLight} border border-${currentTheme.border} shadow-lg shadow-${currentTheme.glow}`
-                        : `text-${currentTheme.textMuted} hover:bg-${currentTheme.bgHover} hover:text-${currentTheme.text} border border-transparent`
+                       `bg-${currentTheme.bg} text-${currentTheme.textLight} border border-${currentTheme.border} shadow-lg shadow-${currentTheme.glow}
+                         text-${currentTheme.textMuted} hover:bg-${currentTheme.bgHover} hover:text-${currentTheme.text} border border-transparent`
                     } rounded-sm`}
                   >
                     {item.label}
@@ -632,12 +809,12 @@ export default function Portfolio() {
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {[
-                { id: "home", label: "COMMAND_CENTER" },
-                { id: "about", label: "PERSONNEL_FILE" },
-                { id: "skills", label: "TECH_SPECS" },
-                { id: "timeline", label: "SERVICE_RECORD" },
-                { id: "projects", label: "MISSION_LOG" },
-                { id: "contact", label: "COMM_LINK" },
+                { id: "home", label: "HOME" },
+                { id: "about", label: "ABOUT ME" },
+                { id: "skills", label: "TECH STACK" },
+                { id: "timeline", label: "WORK EXPERIENCE" },
+                { id: "projects", label: "PROJECTS" },
+                { id: "contact", label: "CONTACT" },
               ].map((item) => (
                 <button
                   key={item.id}
@@ -672,11 +849,11 @@ export default function Portfolio() {
                   className={`w-full h-full rounded-2xl overflow-hidden border-2 ${colorTheme === "blue" ? "border-blue-500/30 shadow-blue-500/25" : colorTheme === "red" ? "border-red-500/30 shadow-red-500/25" : "border-green-500/30 shadow-green-500/25"} shadow-2xl bg-slate-800 ripple-effect click-glow cursor-pointer`}
                 >
                   <img
-                    src="/placeholder.svg?height=400&width=400"
+                    src="/images/carlo-portrait.png?height=400&width=400"
                     alt="Carlo Jimenez - Senior Fullstack Developer"
                     className="w-full h-full object-cover"
                   />
-                  <div className={`absolute inset-0 bg-gradient-to-t from-${colorTheme}-900/20 to-transparent`}></div>
+                  {/* <div className={`absolute inset-0 bg-gradient-to-t from-${colorTheme}-900/20 to-transparent`}></div> */}
                 </div>
 
                 {/* Glowing border effect */}
@@ -742,7 +919,7 @@ export default function Portfolio() {
                 <div
                   className={`${colorTheme === "blue" ? "text-blue-400" : colorTheme === "red" ? "text-red-400" : "text-green-400"} font-mono text-sm tracking-wider animate-typing animate-on-scroll`}
                 >
-                  {">> NEURAL_INTERFACE_ACTIVE <<"}
+                  {">> INTERFACE_ACTIVE <<"}
                 </div>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 tracking-tight glitch-effect animate-on-scroll">
                   CARLO JIMENEZ
@@ -765,16 +942,24 @@ export default function Portfolio() {
                 <div
                   className={`${colorTheme === "blue" ? "text-blue-300" : colorTheme === "red" ? "text-red-300" : "text-green-300"} font-mono text-sm opacity-75 max-w-2xl mx-auto lg:mx-0 animate-on-scroll`}
                 >
-                  SPECIALIZATION: QUANTUM_CODE_ARCHITECTURE | NEURAL_NETWORKS | SYSTEM_OPTIMIZATION
+                  SPECIALIZATION: LARAVEL | CODE_IGNITER | WORDPRESS
                 </div>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-6 animate-on-scroll">
                 <Button
-                  onClick={() => scrollToSection("projects")}
+                  // onClick={() => scrollToSection("projects")}
+  onClick={() => {
+    const link = document.createElement("a");
+    link.href = "/Jimenez_Carlo_Resume.pdf";
+    link.download = "Jimenez_Carlo_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }}
                   className={`${colorTheme === "blue" ? "bg-blue-500 hover:bg-blue-600 border-blue-400/50 shadow-blue-500/25 hover:shadow-blue-500/40" : colorTheme === "red" ? "bg-red-500 hover:bg-red-600 border-red-400/50 shadow-red-500/25 hover:shadow-red-500/40" : colorTheme === "green" ? "bg-green-500 hover:bg-green-600 border-green-400/50 shadow-green-500/25 hover:shadow-green-500/40" : ""} text-slate-900 font-semibold px-8 py-3 text-lg font-mono transition-all duration-300 ripple-effect click-glow`}
                 >
-                  {">> INITIATE_MISSION_REVIEW"}
+                  {">> DOWNLOAD_RESUME"}
                 </Button>
                 <Button
                   onClick={() => setShowContactModal(true)}
@@ -792,7 +977,7 @@ export default function Portfolio() {
                 <div
                   className={`${colorTheme === "blue" ? "bg-blue-400" : colorTheme === "red" ? "bg-red-400" : "bg-green-400"} w-2 h-2 rounded-full animate-pulse`}
                 ></div>
-                <span>SYSTEM_STATUS: OPERATIONAL</span>
+                <span>USER_STATUS: ACTIVE</span>
               </div>
             </div>
           </div>
@@ -886,7 +1071,7 @@ export default function Portfolio() {
             >
               {">> ACCESSING_PERSONNEL_DATABASE <<"}
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white glitch-effect">PERSONNEL FILE</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white glitch-effect">ABOUT ME</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -895,11 +1080,11 @@ export default function Portfolio() {
                 className={`relative overflow-hidden rounded-lg border ${colorTheme === "blue" ? "border-blue-500/30 shadow-blue-500/25" : colorTheme === "red" ? "border-red-500/30 shadow-red-500/25" : "border-green-500/30 shadow-green-500/25"} shadow-2xl ripple-effect click-glow cursor-pointer`}
               >
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/images/carlo-portrait.png?height=400&width=400"
                   alt="Carlo Jimenez - Neural Interface Profile"
                   className="w-full max-w-sm mx-auto"
                 />
-                <div className={`absolute inset-0 bg-gradient-to-t from-${colorTheme}-900/50 to-transparent`}></div>
+                {/* <div className={`absolute inset-0 bg-gradient-to-t from-${colorTheme}-900/50 to-transparent`}></div> */}
                 <div
                   className={`${colorTheme === "blue" ? "text-blue-300" : colorTheme === "red" ? "text-red-300" : "text-green-300"} absolute bottom-4 left-4 font-mono text-xs animate-typing animate-on-scroll`}
                 >
@@ -918,14 +1103,10 @@ export default function Portfolio() {
                   {">> BIOGRAPHICAL_DATA"}
                 </div>
                 <p className="text-slate-200 text-lg leading-relaxed mb-4 animate-on-scroll">
-                  Elite software architect with 5+ years of experience in quantum code development and neural network
-                  optimization. Specialized in creating advanced digital infrastructures that push the boundaries of
-                  conventional programming paradigms.
+Dedicated Fullstack Developer with extensive experience in web application development, responsive design, and system maintenance. Skilled in PHP (Laravel, WordPress, CodeIgniter), SQL, Bootstrap, and modern front-end frameworks, with a strong focus on delivering efficient and user-friendly solutions.
                 </p>
                 <p className="text-slate-200 text-lg leading-relaxed animate-on-scroll">
-                  Primary expertise includes React quantum frameworks, Node.js neural processing, and cloud-based system
-                  architectures. Off-duty activities include exploring emerging technologies, contributing to
-                  open-source protocols, and strategic gaming simulations.
+                  Adept at transforming design prototypes into functional, scalable systems while ensuring seamless collaboration and problem-solving.
                 </p>
               </div>
 
@@ -950,12 +1131,12 @@ export default function Portfolio() {
                   <div
                     className={`${colorTheme === "blue" ? "text-blue-400" : colorTheme === "red" ? "text-red-400" : "text-green-400"} text-2xl font-bold`}
                   >
-                    50+
+                    30+
                   </div>
                   <div
                     className={`${colorTheme === "blue" ? "text-blue-300" : colorTheme === "red" ? "text-red-300" : "text-green-300"} font-mono text-xs`}
                   >
-                    MISSIONS_COMPLETED
+                    PROJECTS
                   </div>
                 </div>
                 <div
@@ -964,7 +1145,7 @@ export default function Portfolio() {
                   <div
                     className={`${colorTheme === "blue" ? "text-blue-400" : colorTheme === "red" ? "text-red-400" : "text-green-400"} text-2xl font-bold`}
                   >
-                    99%
+                    80%
                   </div>
                   <div
                     className={`${colorTheme === "blue" ? "text-blue-300" : colorTheme === "red" ? "text-red-300" : "text-green-300"} font-mono text-xs`}
@@ -1074,7 +1255,7 @@ export default function Portfolio() {
             >
               {">> RETRIEVING_SERVICE_RECORDS <<"}
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white glitch-effect">SERVICE RECORD</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white glitch-effect">WORK EXPERIENCE</h2>
           </div>
 
           <div className="grid lg:grid-cols-4 gap-8">
@@ -1107,7 +1288,7 @@ export default function Portfolio() {
                           <img
                             src={job.image || "/placeholder.svg"}
                             alt={job.company}
-                            className="w-8 h-8 rounded border border-slate-600"
+                            className="w-8 h-8 rounded border border-slate-600 bg-white  object-contain"
                           />
                           <div>
                             <div
@@ -1146,7 +1327,7 @@ export default function Portfolio() {
                     <div
                       className={`${colorTheme === "blue" ? "text-blue-400" : colorTheme === "red" ? "text-red-400" : colorTheme === "green-400"} font-mono text-xs mb-2`}
                     >
-                      MISSION_PROGRESS
+                      WORK_EXPERIENCE_PROGRESS
                     </div>
                     <div className="w-full bg-slate-700 rounded-full h-2">
                       <div
@@ -1157,7 +1338,7 @@ export default function Portfolio() {
                     <div
                       className={`${colorTheme === "blue" ? "text-blue-300" : colorTheme === "red" ? "text-red-300" : colorTheme === "green-300"} font-mono text-xs mt-1`}
                     >
-                      {activeTimelineItem + 1} / {workExperience.length} DEPLOYMENTS
+                      {activeTimelineItem + 1} / {workExperience.length} VIEWED
                     </div>
                   </div>
 
@@ -1180,7 +1361,7 @@ export default function Portfolio() {
 
             {/* Main Timeline Content */}
             <div className="lg:col-span-3">
-              <div className="relative">
+              <div className="relative scrollable-invisible">
                 {/* Timeline line */}
                 <div
                   className={`absolute left-8 top-0 bottom-0 w-0.5 ${colorTheme === "blue" ? "bg-gradient-to-b from-blue-500 via-blue-400 to-blue-500" : colorTheme === "red" ? "bg-gradient-to-b from-red-500 via-red-400 to-red-500" : colorTheme === "green" ? "bg-gradient-to-b from-green-500 via-green-400 to-green-500" : ""} timeline-line opacity-30`}
@@ -1216,7 +1397,7 @@ export default function Portfolio() {
                                 <img
                                   src={job.image || "/placeholder.svg"}
                                   alt={job.company}
-                                  className="w-12 h-12 rounded-lg border border-slate-600"
+                                  className="w-12 h-12 rounded-lg border border-slate-600 bg-white  object-contain"
                                 />
                                 <div>
                                   <CardTitle
@@ -1255,7 +1436,7 @@ export default function Portfolio() {
                               <div
                                 className={`${colorTheme === "blue" ? "text-blue-400" : colorTheme === "red" ? "text-red-400" : colorTheme === "green-400"} font-mono text-sm mb-2 animate-typing animate-on-scroll`}
                               >
-                                {">> MISSION_BRIEFING"}
+                                {">> SUMMARY_BRIEFING"}
                               </div>
                               <p className="text-slate-200 leading-relaxed animate-on-scroll">{job.description}</p>
                             </div>
@@ -1318,15 +1499,15 @@ export default function Portfolio() {
             <div
               className={`${colorTheme === "blue" ? "text-blue-400" : colorTheme === "red" ? "text-red-400" : colorTheme === "green-400"} font-mono text-sm mb-2 animate-typing animate-on-scroll`}
             >
-              {">> RETRIEVING_MISSION_ARCHIVES <<"}
+              {">> RETRIEVING_PROJECT_ARCHIVES <<"}
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white glitch-effect">MISSION LOG</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white glitch-effect">PROJECTS</h2>
           </div>
 
           {/* Tab Navigation */}
-          <div className="flex justify-center mb-8">
+          <div className="flex justify-center mb-8 ">
             <div
-              className={`bg-slate-800/50 border ${colorTheme === "blue" ? "border-blue-500/30" : colorTheme === "red" ? "border-red-500/30" : colorTheme === "green-500/30"} rounded-lg p-1 backdrop-blur-sm`}
+              className={`bg-slate-800/50 border ${colorTheme === "blue" ? "border-blue-500/30" : colorTheme === "red" ? "border-red-500/30" : colorTheme === "green-500/30"} rounded-lg p-1 backdrop-blur-sm flex flex-row`}
             >
               <button
                 onClick={() => setActiveProjectTab("projects")}
@@ -1337,7 +1518,7 @@ export default function Portfolio() {
                 }`}
               >
                 <List className="w-4 h-4" />
-                ACTIVE_MISSIONS
+                PROJECTS_ARCHIVES
               </button>
               <button
                 onClick={() => setActiveProjectTab("gallery")}
@@ -1524,7 +1705,7 @@ export default function Portfolio() {
           >
             {">> ESTABLISHING_COMMUNICATION_PROTOCOLS <<"}
           </div>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 glitch-effect">COMM LINK</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 glitch-effect">CONTACT</h2>
 
           <div
             className={`border ${colorTheme === "blue" ? "border-blue-500/30" : colorTheme === "red" ? "border-red-500/30" : colorTheme === "green-500/30"} rounded-lg p-8 bg-slate-800/30 backdrop-blur-sm mb-8 animate-fade-in-up`}
@@ -1544,7 +1725,7 @@ export default function Portfolio() {
               </Button>
 
               <div className="flex gap-4">
-                <Button
+                {/* <Button
                   variant="outline"
                   size="icon"
                   className={`border-${currentTheme.border} text-${currentTheme.text} hover:bg-${currentTheme.primary} hover:text-slate-900 w-12 h-12 ripple-effect click-glow`}
@@ -1553,14 +1734,14 @@ export default function Portfolio() {
                   <a href="https://github.com/jimenez-carlo" target="_blank" rel="noopener noreferrer">
                     <Github className="w-5 h-5" />
                   </a>
-                </Button>
+                </Button> */}
                 <Button
                   variant="outline"
                   size="icon"
                   className={`border-${currentTheme.border} text-${currentTheme.text} hover:bg-${currentTheme.primary} hover:text-slate-900 w-12 h-12 ripple-effect click-glow`}
                   asChild
                 >
-                  <a href="https://linkedin.com/in/carlo-jimenez" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/carlo-jimenez-28318520" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="w-5 h-5" />
                   </a>
                 </Button>
@@ -1609,11 +1790,12 @@ export default function Portfolio() {
                     htmlFor="name"
                     className={`${colorTheme === "blue" ? "text-blue-300" : colorTheme === "red" ? "text-red-300" : "text-green-300"} font-mono text-sm`}
                   >
-                    OPERATIVE_NAME
+                    YOUR_NAME
                   </Label>
                   <Input
+                  autoComplete="off"
                     id="name"
-                    placeholder="Enter your designation..."
+                    placeholder="Enter your alias..."
                     className={`bg-slate-800/50 border-${currentTheme.border} text-slate-200 placeholder:text-slate-400 font-mono text-sm`}
                   />
                 </div>
@@ -1623,9 +1805,10 @@ export default function Portfolio() {
                     htmlFor="email"
                     className={`${colorTheme === "blue" ? "text-blue-300" : colorTheme === "red" ? "text-red-300" : "text-green-300"} font-mono text-sm`}
                   >
-                    COMM_FREQUENCY
+                    EMAIL_ADDRESS
                   </Label>
                   <Input
+                  autoComplete="off"
                     id="email"
                     type="email"
                     placeholder="operative@domain.com"
@@ -1638,9 +1821,10 @@ export default function Portfolio() {
                     htmlFor="subject"
                     className={`${colorTheme === "blue" ? "text-blue-300" : colorTheme === "red" ? "text-red-300" : "text-green-300"} font-mono text-sm`}
                   >
-                    MISSION_TYPE
+                    SUBJECT
                   </Label>
                   <Input
+                  autoComplete="off"
                     id="subject"
                     placeholder="Project consultation, collaboration..."
                     className={`bg-slate-800/50 border-${currentTheme.border} text-slate-200 placeholder:text-slate-400 font-mono text-sm`}
@@ -1652,11 +1836,12 @@ export default function Portfolio() {
                     htmlFor="message"
                     className={`${colorTheme === "blue" ? "text-blue-300" : colorTheme === "red" ? "text-red-300" : "text-green-300"} font-mono text-sm`}
                   >
-                    TRANSMISSION_DATA
+                    DESCRIPTION
                   </Label>
                   <Textarea
+                    autoComplete="off"
                     id="message"
-                    placeholder="Describe your mission objectives..."
+                    placeholder="Describe your objectives and inquiries..."
                     rows={4}
                     className={`bg-slate-800/50 border-${currentTheme.border} text-slate-200 placeholder:text-slate-400 font-mono text-sm resize-none`}
                   />
@@ -1685,7 +1870,7 @@ export default function Portfolio() {
                     >
                       DIRECT_COMM
                     </div>
-                    <div className="text-slate-300 text-xs">+63 XXX XXX XXXX</div>
+                    <div className="text-slate-300 text-xs">+63 9 217 635 295</div>
                   </div>
                   <div
                     className={`p-3 bg-slate-800/30 border ${colorTheme === "blue" ? "border-blue-500/30" : colorTheme === "red" ? "border-red-500/30" : colorTheme === "green-500/30"} rounded-lg animate-on-scroll`}
@@ -1711,7 +1896,7 @@ export default function Portfolio() {
               <div className="h-full min-h-[500px] relative">
                 {/* Dummy Google Map Embed */}
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247116.71392882813!2d120.94861634179688!3d14.599512000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca03571ec38b%3A0x69d1d5751069c11f!2sManila%2C%20Metro%20Manila%2C%20Philippines!5e0!3m2!1sen!2sus!4v1703123456789!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4768.673459009735!2d120.45484977513031!3d15.807534284834658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339149a49e89ed21%3A0x9845cf528eb6aa42!2sCJ%20Programmer!5e1!3m2!1sen!2sph!4v1750925618590!5m2!1sen!2sph"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: "grayscale(100%) invert(92%) contrast(83%)" }}
@@ -1829,7 +2014,7 @@ export default function Portfolio() {
                     className={`w-12 h-12 rounded-lg overflow-hidden border-2 ${colorTheme === "blue" ? "border-blue-500/30 shadow-blue-500/25" : colorTheme === "red" ? "border-red-500/30 shadow-red-500/25" : colorTheme === "green-500/30 shadow-green-500/25"}`}
                   >
                     <img
-                      src="/placeholder.svg?height=400&width=400"
+                      src="/images/carlo-portrait.png?height=400&width=400"
                       alt="Carlo Jimenez - Neural Interface"
                       className="w-full h-full object-cover"
                     />
@@ -1857,15 +2042,16 @@ export default function Portfolio() {
                   size="sm"
                   className={`bg-${currentTheme.bg} hover:bg-${currentTheme.primary} text-${currentTheme.textLight} hover:text-slate-900 border border-${currentTheme.border} font-mono text-xs px-3 py-2 transition-all duration-300 ripple-effect click-glow`}
                 >
-                  COMM_LINK
+                  CONTACT FORM
                 </Button>
 
+                
                 <Button
                   onClick={() => scrollToSection("projects")}
                   size="sm"
                   className={`bg-green-500/20 hover:bg-green-500 text-green-300 hover:text-slate-900 border border-green-500/50 font-mono text-xs px-3 py-2 transition-all duration-300 ripple-effect click-glow`}
                 >
-                  MISSIONS
+                  PROJECTS
                 </Button>
 
                 {/* Resource indicators */}
@@ -1877,12 +2063,12 @@ export default function Portfolio() {
                     <span
                       className={`${colorTheme === "blue" ? "text-blue-300" : colorTheme === "red" ? "text-red-300" : colorTheme === "green-300"}`}
                     >
-                      SKILLS: 12
+                      ON-GOING: 3+
                     </span>
                   </div>
                   <div className="flex items-center space-x-2 text-xs font-mono">
                     <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                    <span className="text-green-300">PROJECTS: 4</span>
+                    <span className="text-green-300">PROJECTS: 20+</span>
                   </div>
                 </div>
               </div>

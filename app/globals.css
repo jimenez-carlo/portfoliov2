@@ -462,3 +462,18 @@
 .glitch-effect:hover {
   animation: glitch 0.5s ease-in-out;
 }
+
+.scrollable-invisible {
+  max-height: 987px;
+  overflow: auto;
+  /* Enables scrolling */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+}
+
+.scrollable-invisible::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Edge */
+}

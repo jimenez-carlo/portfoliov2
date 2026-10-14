@@ -1646,16 +1646,9 @@ export default function Portfolio() {
                   {">> BIOGRAPHICAL_DATA"}
                 </div>
                 <p className="text-slate-200 text-lg leading-relaxed mb-4 animate-on-scroll">
-                  Dedicated Fullstack Developer with extensive experience in web
-                  application development, responsive design, and system
-                  maintenance. Skilled in PHP (Laravel, WordPress, CodeIgniter),
-                  SQL, Bootstrap, and modern front-end frameworks, with a strong
-                  focus on delivering efficient and user-friendly solutions.
+                 Results-driven Software Engineer with over 7 years of experience in full-stack development, application architecture, and backend modernization, working with international clients through corporate and freelance engagements. Experienced in a diverse technology stack, including Node.js, JavaScript, TypeScript, PHP, C#, React, Next.js, Vue.js, Angular, Laravel, CodeIgniter, WordPress, AWS, and serverless technologies. Skilled in building scalable web applications, API integrations, cloud-based solutions, and Server-Driven UI (SDUI) architectures. A proactive, independent, and fast-learning professional who embraces new technologies and adapts quickly to unfamiliar tech stacks, consistently delivering projects with minimal supervision. Punctual, approachable, and collaborative, I look forward to taking on new challenges, exploring emerging technologies, and contributing meaningful solutions while continuously growing as a software engineer.
                 </p>
                 <p className="text-slate-200 text-lg leading-relaxed animate-on-scroll">
-                  Adept at transforming design prototypes into functional,
-                  scalable systems while ensuring seamless collaboration and
-                  problem-solving.
                 </p>
               </div>
 

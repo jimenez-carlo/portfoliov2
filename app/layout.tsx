@@ -4,9 +4,17 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Carlo Jimenez - Portfolio v2',
   description: 'Explore the official portfolio (v2) of Carlo Jimenez, a Bayambang, Pangasinan-based full-stack software developer, programmer, and freelancer. Discover expert web development, AI integration, and modern software solutions.',
-  generator: '',
-  // description: 'Created with v0',
-  // generator: 'v0.dev',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function RootLayout({

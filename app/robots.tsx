@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://yourdomain.com/sitemap.xml', // Replace with your actual domain
+    sitemap: 'https://carlo-jimenez.com/sitemap.xml', // Replace with your actual domain
   }
 }

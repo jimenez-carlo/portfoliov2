@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Carlo Jimenez - Portfolio v2',
+  title: 'Carlo Jimenez',
   description:
     'Explore the official portfolio (v2) of Carlo Jimenez, a Bayambang, Pangasinan-based full-stack software developer, programmer, and freelancer. Discover expert web development, AI integration, and modern software solutions.',
   robots: {

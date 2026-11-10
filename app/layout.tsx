@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Carlo Jimenez',
   description:
-    'Explore the official portfolio (v2) of Carlo Jimenez, a Bayambang, Pangasinan-based full-stack software developer, programmer, and freelancer. Discover expert web development, AI integration, and modern software solutions.',
+    'Explore the official portfolio of Carlo Jimenez, a full-stack software developer based in Bayambang, Pangasinan, Philippines. Discover his experience in web development, software engineering, AI integration, and building modern digital solutions.',
   robots: {
     index: true,
     follow: true,
